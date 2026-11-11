@@ -1,0 +1,19 @@
+print("--- STUDENT INFO FORMATTER ---")
+print("")
+
+first_name = str(input("Enter your first name: "))
+last_name = str(input("Enter your last name: "))
+section = str(input("Enter your section: "))
+favorite_subject = str(input("Enter your favorite subject: "))
+print("")
+
+full_name = str(first_name + " " + last_name)
+character_count = len(full_name)
+
+print("FORMATTED OUTPUT:")
+print("")
+print("Name: ", full_name)
+print("Name Code: ", full_name)
+print("Section: ", section)
+print("Favorite Subject: ", favorite_subject)
+print("Character Count: ", character_count )
